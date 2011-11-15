@@ -1,0 +1,106 @@
+%table{:align => "center", :bgcolor => "#f5f5f1", :cellpadding => "0", :cellspacing => "0", :style => "font-family: arial, helvetica, sans-serif; background-color: #f5f5f1; color: #333333;", :width => "634"}
+  %tbody
+    %tr
+      %td{:width => "634"}
+        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :style => "padding: 20px 20px 12px; color: #999999; font-size: 10px;", :width => "616"}
+          %tbody
+            %tr
+              %td{:valign => "bottom", :width => "308"}
+                %a{:href => "http://www.craigskit.com", :style => "color: #0192b5; text-decoration: none;", :target => "_parent"}
+                  = image_tag "http://www.craigskit.com/images/logos/logo-black-footer.png", :alt => "Welcome to Crowd Spot", :border => "0", :style => "display: block;", :width => "100"
+        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "616"}
+          %tbody
+            %tr
+              %td{:width => "616"}
+                %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "616"}
+                  %tbody
+                    %tr
+                      %td{:width => "616"}
+                        = image_tag "http://www.craigskit.com/images/email/corners_top.png", :border => "0", :style => "display: block;", :width => "616"
+                %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "616"}
+                  %tbody
+                    %tr
+                      %td{:bgcolor => "white", :style => "color: #333333; padding: 20px; font-size: 12px; border-right-color: #eaeae3; border-left-color: #eaeae3; border-right-width: 1px !important; border-left-width: 1px !important; border-right-style: solid !important; border-left-style: solid !important; background-color: white;", :width => "616"}
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "574"}
+                          %tbody
+                            %tr
+                              %td{:valign => "top", :width => "297"}
+                                %div{:style => "color: #333333; font-size: 24px;"} Welcome to Crowd Spot, #{@user.user_name}!
+                                %br/
+                                %span{:style => "font-family: arial, helvetica, sans-serif; color: #333333; line-height: 30px; font-size: 14px;"}
+                                  Get started by using your Crowd Spot email address when you create an ad on Craigslist.
+                                  %br/
+                                %br/
+                                %span{:style => "font-family: arial, helvetica, sans-serif; color: #666666; font-size: 12px; line-height: 18px;"}
+                                  Your new Crowd Spot email address is xxxx.
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :style => "border-bottom-color: #eaeae3; border-bottom-style: solid; border-bottom-width: 1px;", :width => "574"}
+                          %tbody
+                            %tr
+                              %td
+                                = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "25", :style => "display: block;"
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :style => "border-top-color: #f5f5f1; border-top-style: solid; border-top-width: 3px;", :width => "574"}
+                          %tbody
+                            %tr
+                              %td
+                                = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "15", :style => "display: block;"
+
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "574"}
+                          %tbody
+                            %tr
+                              %td{:width => "574"}
+                                %span{:style => "font-family: arial, helvetica, sans-serif; color: #333333; line-height: 30px; font-size: 20px;"}
+                                  3 Easy Steps:
+                                %ol{:style => "margin-bottom: 5px; margin-top: 5px; color: #666666; line-height: 18px; font-size: 12px; padding-left: 60px; "}
+                                  %li{:style => "margin-left: 0px;"}
+                                    Post an item on Craigslist using your new Crowd Spot email address, #{@user.email}.
+                                    %br
+                                    = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "10", :style => "display: block;"
+                                    = image_tag "http://www.craigskit.com/images/postingexample.jpg", :border => "1"
+                                    = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "20", :style => "display: block;"
+                                  %li{:style => "margin-left: 0px;"}
+                                    Confirm your posting by clicking through on the email you receive from Craigslist.
+                                    %br
+                                    = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "10", :style => "display: block;"
+                                    = image_tag "http://www.craigskit.com/images/postingexample_email.jpg", :border => "1"
+                                    = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "20", :style => "display: block;"
+                                  %li{:style => "margin-left: 0px;"}
+                                    Voila, you're done!  Manage all your listing and communications from #{link_to "Crowd Spot", "http://www.craigskit.com"}.
+                                    %br
+                                    = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "10", :style => "display: block;"
+                                    = image_tag "http://www.craigskit.com/images/postingexample_onck.jpg", :border => "1"
+                                    = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "20", :style => "display: block;"
+
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "574"}
+                          %tbody
+                            %tr
+                              %td
+                                = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "10", :style => "display: block;"
+
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :style => "border-top-color: #eaeae3; border-top-style: solid; border-top-width: 1px;", :width => "574"}
+                          %tbody
+                            %tr
+                              %td
+                                = image_tag "http://www.craigskit.com/images/email/spacer.gif", :height => "20", :style => "display: block;"
+
+                        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "574"}
+                          %tbody
+                            %tr
+                              %td{:valign => "top", :width => "483"}
+                                %span{:style => "font-family: arial, helvetica, sans-serif; color: #666666; font-size: 12px; line-height: 18px;"} All the best,
+                                %br/
+                                %span{:style => "font-family: arial, helvetica, sans-serif; color: #666666; font-size: 12px; line-height: 18px; font-weight: bold;"} The Crowd Spot Team
+                                %br/
+                            %tr
+                              %td{:style => "padding-top: 6px;"}
+                                %span{:style => "font-family: arial, helvetica, sans-serif; color: #666666; font-size: 12px; line-height: 28px;"}
+                                  = link_to "Get started here!", new_verified_user_session_url, :style => "color: #0192b5; text-decoration: none;", :target => "_parent"
+                %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :width => "616"}
+                  %tbody
+                    %tr
+                      %td{:width => "616"}
+                        = image_tag "http://www.craigskit.com/images/email/corners_bottom.png", :border => "0", :style => "display: block;", :width => "616"
+        %table{:align => "center", :cellpadding => "0", :cellspacing => "0", :style => "padding-bottom: 20px; padding-top: 10px; color: #999999; font-size: 10px; text-align: center;", :width => "616"}
+          %tbody
+            %tr
+              %td{:style => "text-align:center !important;", :width => "616"}
+                \© 2011 Crowd Spot Inc. 788 Harrison St. San Francisco, CA 94107

@@ -1,0 +1,34 @@
+.cta-right {
+  float: right; }
+
+.fb-like {
+  margin-top: 15px; }
+
+.contact-buttonalign {
+  margin-left: 232px; }
+
+.messages-wrap .messages {
+  float: left; }
+.messages-wrap .messages-count {
+  text-align: center;
+  float: left;
+  min-width: 14px;
+  background-color: red;
+  padding: 4px 3px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin: -4px 0 0 -14px;
+  cursor: pointer; }
+.messages-wrap .messages-count:hover {
+  background-color: black; }
+
+.convoresponse_input {
+  margin-left: 70px; }
+  .convoresponse_input .convoresponse {
+    float: left;
+    width: 200px; }
+  .convoresponse_input .convoresponse_btn {
+    float: left;
+    width: 100px;
+    margin-left: 14px;
+    margin-top: 3px; }

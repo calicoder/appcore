@@ -1,0 +1,14 @@
+%h1
+  !EXCEPTOMAIL!
+
+#{@custom_message}
+
+- if @exception
+  %br
+  %br
+  #{@exception.message}
+  %br
+  %br
+  #{@exception.backtrace}
+  %br
+  %br

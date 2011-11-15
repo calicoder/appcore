@@ -1,0 +1,113 @@
+.column-container.clearfix
+  .column.third
+    \.
+
+  .column.third
+    .aligncenter
+      %h3.no-margin
+        %em How does Crowd Spot work?
+      %p
+        It's really easy...
+  .column.third
+    .cta-right
+      %a.button.button-arrow{:href => new_verified_user_registration_path}
+        Sign Up Now
+        %span.icon
+.clearfix
+#pricing
+  %table{:border => "0", :cellpadding => "0", :cellspacing => "0"}
+    %thead
+      %tr
+        %td{:width => "33%"}
+          %h3 1. Get a Crowd Spot E-mail Address
+        %td{:width => "33%"}
+          %h3 2. Post On Craigslist
+        %td{:width => "33%"}
+          %h3 3. Manage Your Sale
+    %tbody
+      %tr
+        %td.highlight
+          %span
+            %br
+            #{link_to "Sign up", new_verified_user_registration_path} for a Crowd Spot Account and
+            %br
+            receive a Crowd Spot email address.
+            %br
+            %br
+            %figure.feature-thumbnail{:style => "margin-left: 35px"}
+              = image_tag "/images/youatyoucraigskit.png", :width => "238"
+        %td.highlight
+          %span
+            %br
+            Use your Crowd Spot email address
+            %br
+            when you create listings on Craigslist.
+            %br
+            %br
+            %figure.feature-thumbnail{:style => "margin-left: 35px"}
+              = image_tag "/images/postingexample.jpg", :width => "238"
+        %td.highlight
+          %span
+            %br
+            When emails start pouring in,
+            %br
+            manage your emails here.
+            %br
+            %br
+            %figure.feature-thumbnail{:style => "margin-left: 35px"}
+              = image_tag "/images/postingexample_onck.jpg", :width => "238"
+
+%hr/
+.column-container.clearfix
+  .column.third
+    %h4 What is Crowd Spot?
+    %p
+      Crowd Spot is a toolset for Craigslist sellers.  We give you an email address that you use to list on Craigslist.  When the emails start pouring in, we will help you manage them and give you a nice, tidy place to close your deal.
+
+    %p
+      We don't try to change the way you sell on Craigslist.  We try to make the way you sell on Craigslist better.
+  .column.third
+    .clearfix
+      %figure.feature-thumbnail
+
+        = image_tag "youatcraigskit.png", :alt => "Remain Anonymous", :height => "58", :width => "58"
+      %h6{:style => "text-transform: none;"} Remain Anonymous
+      %p
+        %small Use your craigskit.com email address to keep your email address private.  Don't worry, you won't have to manage another inbox, we forward everything to you.
+    .clearfix
+      %figure.feature-thumbnail
+        = image_tag "/images/swissarmy.png", :alt => "Manage in one place", :height => "58", :width => "58"
+      %h6{:style => "text-transform: none;"} Manage Everything in One Place
+      %p
+        %small See every inquiry about your listing in one place.  Take the clutter and headache out of managing your listings.
+  .column.third
+    .clearfix
+      %figure.feature-thumbnail
+        = image_tag "/images/computermoney.png", :alt => "Find the best buyer", :height => "58", :width => "58"
+      %h6{:style => "text-transform: none;"} Find the Best Buyer
+      %p
+        %small We want you to find the best buyer at the best price.  The name of the game is equipping you to make the best sale.
+    .clearfix
+      %figure.feature-thumbnail
+        = image_tag "/images/facebookconvo.png", :alt => "Facebook-like Conversations", :height => "58", :width => "58"
+      %h6{:style => "text-transform: none;"} Facebook-like Conversations
+      %p
+        %small See the entire conversation with a buyer in context.  Let's face it, communicating with people is so much easier on Facebook.
+-#%hr/
+-##social
+-#  %ul.clearfix
+-#    %li
+-#      %h6
+-#        %a{:href => "#"}
+-#          %img.icon{:height => "16", :src => "assets/icons/icon-16x16.png", :width => "16"}/
+-#          Follow us on Twitter
+-#    %li
+-#      %h6
+-#        %a{:href => "#"}
+-#          %img.icon{:height => "16", :src => "assets/icons/icon-16x16.png", :width => "16"}/
+-#          Like us on Facebook
+-#    %li
+-#      %h6
+-#        %a{:href => "/contact"}
+-#          %img.icon{:height => "16", :src => "assets/icons/icon-16x16.png", :width => "16"}/
+-#          Get support

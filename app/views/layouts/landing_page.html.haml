@@ -1,0 +1,11 @@
+!!!
+%html
+  = render :partial => "shared/head"
+  %body.home
+    = render :partial => "layouts/javascript_queue_init"
+    = render :partial => "shared/flash", :locals => {:notice => notice, :alert => alert}
+    #wrap
+      = render :partial => "shared/header"
+      = yield
+      = render :partial => "shared/footer"
+      = render :partial => "layouts/javascript_queue_process"

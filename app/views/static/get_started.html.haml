@@ -1,0 +1,46 @@
+.column-container.clearfix
+  .column.third
+    \.
+  .column.third
+    .aligncenter
+      %h3.no-margin
+        %em How do I use Crowd Spot?
+#pricing
+  %table{:border => "0", :cellpadding => "0", :cellspacing => "0"}
+    %thead
+      %tr
+        %td{:width => "33%"}
+          %h3 1. Post on Craigslist
+        %td{:width => "33%"}
+          %h3 2. Confirm listing
+        %td{:width => "33%"}
+          %h3 3. Manage Your Sale
+    %tbody
+      %tr
+        %td.highlight
+          %span
+            %br
+            Post an item on #{link_to "Craigslist", "http://craigslist.org", :target => "_blank"} using your new Crowd Spot email.  Just paste
+            %font{:style => "font-weight:bold"}
+              xxx
+            into the "Reply to:" fields and select "anonymize".
+            %br
+            %br
+            %figure.feature-thumbnail
+              = image_tag "/images/postingexample.jpg", :width => "300"
+        %td.highlight
+          %span
+            %br
+            Confirm your posting by clicking through on the email you receive from Craigslist:
+            %br
+            %br
+            %figure.feature-thumbnail
+              = image_tag "/images/postingexample_email.jpg", :width => "300"
+        %td.highlight
+          %span
+            %br
+            When inquiries about your item come in, you will see them here (as well as receive emails at #{current_verified_user.email} for them as usual).
+            %br
+            %br
+            %figure.feature-thumbnail
+              = image_tag "/images/postingexample_onck.jpg", :width => "300"

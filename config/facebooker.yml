@@ -1,0 +1,14 @@
+development:
+  app_id: 171553886262353
+  secret_key: 923b8c4909375847ec4295b3e049a7ca
+  registration_redirect_uri: http://localhost:3000/users/auth/facebook/create_user
+
+test:
+  app_id: 174079939316129
+  secret_key: c8c44b5a96aa9733bd75e10b86785ca2
+  registration_redirect_uri: http://www.craigskit.com/users/auth/facebook/create_user
+
+production:
+  app_id: 174079939316129
+  secret_key: c8c44b5a96aa9733bd75e10b86785ca2
+  registration_redirect_uri: http://www.craigskit.com/users/auth/facebook/create_user

@@ -1,0 +1,14 @@
+s3_bucket: crowdspot_production
+s3_access_key_id: AKIAJAIPA5STXJNQHFOA
+s3_secret_access_key: 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
+
+javascripts:
+  common:
+    - public/javascripts/jquery.min.js
+    - public/javascripts/jquery_ujs.js
+    - public/javascripts/jquery.timeago.js
+    - public/javascripts/forms.js
+
+stylesheets:
+  common:
+    - public/stylesheets/*.css

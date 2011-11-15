@@ -1,0 +1,82 @@
+#featured
+  .inner-wrap
+    #slider-container
+      .slider
+        %article.slide.text-left.clearfix
+          .post-content
+            %h2
+              %small> We make it so easy to
+              Sell and communicate with buyers on Craigslist
+            %p
+              Use your Crowd Spot email address to post your item on Craigslist.  When emails start pouring in, we give you a nice and tidy place to organize your communications.
+            %a.button.button-arrow{:href => new_verified_user_registration_path}
+              Sign Up Now
+              %span.icon
+            .clear
+            %br
+          .post-image-container
+            = image_tag "/images/imac-screenshot.png", :class => "featured-image", :alt => "image", :height => "340", :src => "", :width => "520"
+        %article.slide.text-right.clearfix
+          .post-content
+            %h2
+              %small> The best part is..
+              It's Free!
+            %p How about them apples?
+            %a.button.button-arrow{:href => new_verified_user_registration_path}
+              Sign Up Now
+              %span.icon
+          .post-image-container
+            = image_tag "/images/main-panel-zoom.png", :class => "featured-image", :alt => "image", :height => "320", :src => "", :width => "600"
+    %span.slider-button.prev
+    %span.slider-button.next
+
+#action
+  .inner-wrap
+    .column-container
+      .column.fourth
+        \. 
+      .column.half
+        %h3
+          %em Sign up for Crowd Spot today!  It's FREE!
+        %p.no-margin Take the pain out of your Craigslist selling experience.  Sign up today.
+      .column.fourth
+        %a.button.button-arrow{:href => features_path}
+          Learn More
+          %span.icon
+
+#main
+  .inner-wrap
+    .column-container.clearfix
+      .column.third
+        %h4 What is Crowd Spot?
+        %p
+          Crowd Spot is a toolset for Craigslist sellers.  We give you an email address that you use to list on Craigslist.  When the emails start pouring in, we will help you manage them and give you a nice, tidy place to close your deal.
+
+        %p
+          We don't try to change the way you sell on Craigslist.  We try to make the way you sell on Craigslist better.
+      .column.third
+        .clearfix
+          %figure.feature-thumbnail
+            = image_tag "/images/youatcraigskit.png", :alt => "Attention to details", :height => "58", :width => "58"
+          %h6{:style => "text-transform: none;"} Remain Anonymous
+          %p
+            %small Use your craigskit.com email address to keep your email address private.  Don't worry, you won't have to manage another inbox, we forward everything to you.
+        .clearfix
+          %figure.feature-thumbnail
+            = image_tag "/images/swissarmy.png", :alt => "Quality coding", :height => "58", :width => "58"
+          %h6{:style => "text-transform: none;"} Manage Everything in One Place
+          %p
+            %small See every inquiry about your listing in one place.  Take the clutter and headache out of managing your listings.
+      .column.third
+        .clearfix
+          %figure.feature-thumbnail
+            = image_tag "/images/computermoney.png", :alt => "Unique color vaiations", :height => "58", :width => "58"
+          %h6{:style => "text-transform: none;"} Find the Best Buyer
+          %p
+            %small We want you to find the best buyer at the best price.  The name of the game is equipping you to make the best sale.
+        .clearfix
+          %figure.feature-thumbnail
+            = image_tag "/images/facebookconvo.png", :alt => "Reply to All", :height => "58", :width => "58"
+          %h6{:style => "text-transform: none;"} Facebook-like Conversations
+          %p
+            %small See the entire conversation with a buyer in context.  Let's face it, communicating with people is so much easier on Facebook.

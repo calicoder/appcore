@@ -1,0 +1,21 @@
+<script type="text/javascript">
+  //<![CDATA[
+    window.processQueue = function() {
+      jQuery.each(window.jsQueue, function(index, obj) {
+        switch (typeof obj) {
+          case "string":
+            eval(obj).init();
+            break;
+          case "function":
+            obj();
+            break;
+          case "object":
+            obj.init();
+            break;
+        }
+      });
+    };
+
+    window.processQueue();
+  //]]>
+</script>

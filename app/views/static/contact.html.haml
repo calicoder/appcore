@@ -1,0 +1,39 @@
+.content.content-left
+  %h3.no-margin Contact Crowd Spot
+  %p
+    %strong
+      We love hearing from you...
+  %p
+    Feel free to contact the Crowd Spot team with comments and questions about our product.  If there is something that would make this service better for you, don't even hesitate and fire us a message.  We're here to help you, so don't be afraid to reach out to us!  Submit a message below or reach us directly at <a href="mailto:support@craigskit.com">support@craigskit.com</a>.
+  %form#contact-form{:action => send_support_email_path, :method => "post"}
+    %p.comment-form-author
+      %label{:for => "author"}
+        Name
+        %small (required)
+      %input#author{:name => "author", :required => "", :size => "30", :type => "text", :value => ""}/
+    %p.comment-form-email
+      %label{:for => "email"}
+        Email
+        %small (required)
+      %input#email{:name => "email", :required => "", :size => "30", :type => "email", :value => ""}/
+    %p.comment-form-url
+      %label{:for => "subject"}
+        Subject
+        %small (optional)
+      %input#subject{:name => "subject", :size => "30", :type => "text", :value => ""}/
+    %p.comment-form-comment
+      %label{:for => "message"} Message
+      %textarea#message{"aria-required" => "true", :cols => "45", :name => "message", :required => "", :rows => "8"}
+    .contact-buttonalign
+      .button.button-mail
+        %input#submit{:name => "submit", :type => "submit", :value => "Send Message"}/
+        %span.icon
+/ end .content
+.sidebar
+  .widget
+    %h6 Little about us
+    .widget-content
+      %p
+        We're a San Francisco based start up focused on optimizing the Craigslist selling experience.  We build tools that we, ourselves, use on a daily basis.  If it doesn't make sense to us, we don't expect it to make sense to you.
+      %p
+        Crowd Spot's founder, Andrew Shin, has been developing consumer web products for over 15 years.  Andrew is the Lead Engineer and Founding Team member of Togetherville, a Silicon Valley start up acquired by The Walt Disney Company in February 2011.

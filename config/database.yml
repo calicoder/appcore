@@ -1,0 +1,31 @@
+development:
+  adapter: mysql
+  host: localhost
+  username: "root"
+  password: "password"
+  pool: 8
+  database: crowdspot_dev
+
+test:
+  adapter: mysql
+  host: localhost
+  username: "root"
+  password: "password"
+  pool: 8
+  database: crowdspot_test
+
+demo:
+  adapter: mysql
+  host: localhost
+  username: "root"
+  password: "password"
+  pool: 8
+  database: crowdspot_demo
+
+production:
+  adapter: mysql
+  host: localhost
+  username: "root"
+  password: "password"
+  pool: 8
+  database: crowdspot_production
