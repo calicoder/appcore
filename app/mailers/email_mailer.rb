@@ -20,7 +20,7 @@ class EmailMailer < ActionMailer::Base
   end
 
   def exception_mail(exception, subject, custom_message)
-    @to = "andrewkshin@gmail.com"
+    @to = "incognitocode@gmail.com"
     @subject = "CK EXCEPTOMAIL: #{subject}"
     @exception = exception
     @custom_message = custom_message
